@@ -30,7 +30,7 @@
     <AppXManifest Include="E:\HocTap\LapTrinhMang\BaiTap\BaiGiuaKi\WeatherApp\WeatherApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-08-06T20:24:47.412</Modified>
+      <Modified>2024-08-07T07:03:33.228</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\HocTap\LapTrinhMang\BaiTap\BaiGiuaKi\WeatherApp\WeatherApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WeatherApp.dll">
       <PackagePath>WeatherApp.dll</PackagePath>
-      <Modified>2024-08-06T20:24:44.346</Modified>
+      <Modified>2024-08-07T07:03:29.389</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\HocTap\LapTrinhMang\BaiTap\BaiGiuaKi\WeatherApp\WeatherApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>WeatherApp.exe</PackagePath>
-      <Modified>2024-08-06T20:24:44.782</Modified>
+      <Modified>2024-08-07T07:03:29.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\HocTap\LapTrinhMang\BaiTap\BaiGiuaKi\WeatherApp\WeatherApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

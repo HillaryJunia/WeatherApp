@@ -32,7 +32,7 @@
             <HorizontalStackLayout Spacing="40" Margin="0,40,0,0">
                 <VerticalStackLayout VerticalOptions="Center" WidthRequest="350">
 
-                    <Label x:Name="LblCity" FontAttributes="Bold" FontSize="24" Text="Ho Chi Minh" HorizontalTextAlignment="Center"/>
+                    <Label x:Name="LblCity" FontAttributes="Bold" FontSize="24" HorizontalTextAlignment="Center"/>
                     <Label x:Name="LblWeatherDescription" HorizontalTextAlignment="Center"/>
                     <Image
                         Source="https://cdn-icons-png.flaticon.com/512/6142/6142570.png"

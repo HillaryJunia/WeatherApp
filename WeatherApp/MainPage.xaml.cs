@@ -15,7 +15,7 @@ namespace WeatherApp
             InitializeComponent();
             Weatherlist = new List<Models.List>();
 
-            InitializeComponent();
+            
             ForecastDay1.GestureRecognizers.Add(new TapGestureRecognizer
             {
                 Command = new Command(() => ShowForecastDetails(1))
@@ -101,7 +101,7 @@ namespace WeatherApp
             LblWind.Text = result.list[0].wind.speed + "Km/h";
             // ImgWeatherIcon.Source = result.list[0].weather[0].customIcon;
 
-            LblCity.Text = result.city.name;
+       
             for (int i = 1; i <= 5; i++)
             {
                 var forecast = result.list[i];
