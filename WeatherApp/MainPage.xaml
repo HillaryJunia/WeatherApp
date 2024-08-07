@@ -1,0 +1,191 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:controls="clr-namespace:WeatherApp.Controls"
+             Shell.NavBarIsVisible="False"
+             BackgroundImageSource="https://static.vecteezy.com/system/resources/previews/014/471/349/non_2x/christmas-background-with-snowy-winter-weather-landscape-with-trees-illustration-free-vector.jpg"
+             x:Class="WeatherApp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,10"
+            Spacing="25">
+            <HorizontalStackLayout VerticalOptions="CenterAndExpand" Spacing="30">
+                <VerticalStackLayout VerticalOptions="Center">
+                    <Label FontAttributes="Bold" Text="24/7/2024" HorizontalTextAlignment="Center"/>
+                    <Label FontAttributes="Bold" Text="2:00 PM" HorizontalTextAlignment="Center"/>
+                </VerticalStackLayout>
+                <SearchBar WidthRequest="360" HeightRequest="10" Placeholder="Search items..." />
+                <Border Stroke="Transparent"  Padding="10" BackgroundColor="#80FFFFFF" VerticalOptions="Center">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="20,20,20,20" />
+                    </Border.StrokeShape>
+                    <Label Text="Your Location" 
+                           HorizontalTextAlignment="Center">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapLocation_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </Border>
+            </HorizontalStackLayout>
+            
+            <HorizontalStackLayout Spacing="40" Margin="0,40,0,0">
+                <VerticalStackLayout VerticalOptions="Center" WidthRequest="350">
+
+                    <Label x:Name="LblCity" FontAttributes="Bold" FontSize="24" Text="Ho Chi Minh" HorizontalTextAlignment="Center"/>
+                    <Label x:Name="LblWeatherDescription" HorizontalTextAlignment="Center"/>
+                    <Image
+                        Source="https://cdn-icons-png.flaticon.com/512/6142/6142570.png"
+                        HeightRequest="120"
+                        />
+                    <Border Stroke="Transparent"  Padding="30,20" BackgroundColor="#80FFFFFF" VerticalOptions="Center">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="20,20,20,20" />
+                        </Border.StrokeShape>
+                        <HorizontalStackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Spacing="40">
+                            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                                <Image HeightRequest="24" Source="https://cdn-icons-png.freepik.com/512/71/71296.png"/>
+                                <Label x:Name="LblHumidity"
+                                       Text="28%"/>
+                            </VerticalStackLayout>
+                            <Label x:Name="LblTemperature"
+                                   FontSize="40" FontAttributes="Bold" Text="28°C"/>
+                            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                                <Image HeightRequest="24" Source="https://cdn-icons-png.flaticon.com/512/2011/2011448.png"/>
+                                <Label x:Name="LblWind"
+                                       Text="10km/h"/>
+                            </VerticalStackLayout>
+                        </HorizontalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+                
+                <Border Stroke="Transparent"  Padding="30,10" BackgroundColor="#80FFFFFF" VerticalOptions="Center">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="20,20,20,20" />
+                    </Border.StrokeShape>
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <StackLayout x:Name="ForecastDay1">
+                            <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
+                                <Image x:Name="ImgIcon1" HeightRequest="60"/>
+                                <VerticalStackLayout VerticalOptions="Center">
+                                    <Label x:Name="LblDate1"/>
+                                    <Label x:Name="LblDescription1"/>
+                                </VerticalStackLayout>
+                            </HorizontalStackLayout>
+                        </StackLayout>
+
+                        <StackLayout x:Name="ForecastDay2">
+                            <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
+                                <Image x:Name="ImgIcon2" HeightRequest="60"/>
+                                <VerticalStackLayout VerticalOptions="Center">
+                                    <Label x:Name="LblDate2"/>
+                                    <Label x:Name="LblDescription2"/>
+                                </VerticalStackLayout>
+                            </HorizontalStackLayout>
+                        </StackLayout>
+
+
+                        <StackLayout x:Name="ForecastDay3">
+                            <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
+                                <Image x:Name="ImgIcon3" HeightRequest="60"/>
+                                <VerticalStackLayout VerticalOptions="Center">
+                                    <Label x:Name="LblDate3"/>
+                                    <Label x:Name="LblDescription3"/>
+                                </VerticalStackLayout>
+                            </HorizontalStackLayout>
+                        </StackLayout>
+
+
+                        <StackLayout x:Name="ForecastDay4">
+                            <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
+                                <Image x:Name="ImgIcon4" HeightRequest="60"/>
+                                <VerticalStackLayout VerticalOptions="Center">
+                                    <Label x:Name="LblDate4"/>
+                                    <Label x:Name="LblDescription4"/>
+                                </VerticalStackLayout>
+                            </HorizontalStackLayout>
+                        </StackLayout>
+
+
+                        <StackLayout x:Name="ForecastDay5">
+                            <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
+                                <Image x:Name="ImgIcon5" HeightRequest="60"/>
+                                <VerticalStackLayout VerticalOptions="Center">
+                                    <Label x:Name="LblDate5"/>
+                                    <Label x:Name="LblDescription5"/>
+                                </VerticalStackLayout>
+                            </HorizontalStackLayout>
+                        </StackLayout>
+                        
+                        
+                    </VerticalStackLayout>
+                </Border>
+            </HorizontalStackLayout>
+            
+            <Border Stroke="Transparent"  Padding="30,10" BackgroundColor="#80FFFFFF" VerticalOptions="Center">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20,20,20,20" />
+                </Border.StrokeShape>
+                <HorizontalStackLayout Spacing="30" HorizontalOptions="Center" VerticalOptions="Center">
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
+                        <Rectangle Fill="MediumPurple"
+                            WidthRequest="40"
+                            HeightRequest="150" />       
+                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
+                        <Rectangle Fill="MediumPurple"
+        WidthRequest="40"
+        HeightRequest="150" />
+                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
+                        <Rectangle Fill="MediumPurple"
+        WidthRequest="40"
+        HeightRequest="150" />
+                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
+                        <Rectangle Fill="MediumPurple"
+        WidthRequest="40"
+        HeightRequest="150" />
+                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
+                        <Rectangle Fill="MediumPurple"
+        WidthRequest="40"
+        HeightRequest="150" />
+                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
+                        <Rectangle Fill="MediumPurple"
+        WidthRequest="40"
+        HeightRequest="150" />
+                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
+                        <Rectangle Fill="MediumPurple"
+        WidthRequest="40"
+        HeightRequest="150" />
+                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout HorizontalOptions="Center">
+                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
+                        <Rectangle Fill="MediumPurple"
+        WidthRequest="40"
+        HeightRequest="150" />
+                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
