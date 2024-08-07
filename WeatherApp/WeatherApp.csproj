@@ -57,6 +57,24 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\icon01d.png" />
+	  <None Remove="Resources\Images\icon01n.png" />
+	  <None Remove="Resources\Images\icon02d.png" />
+	  <None Remove="Resources\Images\icon02n.png" />
+	  <None Remove="Resources\Images\icon03d.png" />
+	  <None Remove="Resources\Images\icon03n.png" />
+	  <None Remove="Resources\Images\icon04d.png" />
+	  <None Remove="Resources\Images\icon09n.png" />
+	  <None Remove="Resources\Images\icon10d.png" />
+	  <None Remove="Resources\Images\icon10n.png" />
+	  <None Remove="Resources\Images\icon11d.png" />
+	  <None Remove="Resources\Images\icon11n.png" />
+	  <None Remove="Resources\Images\icon13d.png" />
+	  <None Remove="Resources\Images\icon13n.png" />
+	  <None Remove="Resources\Images\icon50d.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="9.0.2" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />

@@ -1,7 +1,5 @@
-﻿
-using Microsoft.VisualBasic;
+﻿using Microsoft.VisualBasic;
 using WeatherApp.Sevices;
-
 namespace WeatherApp
 {
     public partial class MainPage : ContentPage
@@ -10,12 +8,14 @@ namespace WeatherApp
         public List<Models.List> Weatherlist;
         private double latitude;
         private double longitude;
+        private HorizontalStackLayout _previousTappedLayout;
+        private Color _initialBackgroundColor = Colors.White; // Assume initial background color is white
+
         public MainPage()
         {
             InitializeComponent();
             Weatherlist = new List<Models.List>();
 
-            
             ForecastDay1.GestureRecognizers.Add(new TapGestureRecognizer
             {
                 Command = new Command(() => ShowForecastDetails(1))
@@ -37,12 +37,12 @@ namespace WeatherApp
                 Command = new Command(() => ShowForecastDetails(5))
             });
         }
+
         protected override async void OnAppearing()
         {
             base.OnAppearing();
             await GetLocation();
             await GetWeatherDataByLocation(latitude, longitude);
-
         }
 
         public async Task GetLocation()
@@ -61,8 +61,7 @@ namespace WeatherApp
         public async Task GetWeatherDataByLocation(double latitude, double longitude)
         {
             var result = await ApiSevice.GetWeather(latitude, longitude);
-            UpdateUI(result);          
-
+            UpdateUI(result);
         }
 
         private async void ImageButton_Clicked(object sender, EventArgs e)
@@ -74,43 +73,31 @@ namespace WeatherApp
             }
         }
 
-
         public async Task GetWeatherDataByCity(string city)
         {
             var result = await ApiSevice.GetWeatherByCIty(city);
             UpdateUI(result);
-
-
         }
 
-        
-
-        
         public void UpdateUI(dynamic result)
         {
             foreach (var item in result.list)
             {
                 Weatherlist.Add(item);
             }
-            // CvWeather.ItemsSource = Weatherlist;
 
             LblCity.Text = result.city.name;
             LblWeatherDescription.Text = result.list[0].weather[0].description;
             LblTemperature.Text = result.list[0].main.temperature + "℃";
             LblHumidity.Text = result.list[0].main.humidity + "%";
             LblWind.Text = result.list[0].wind.speed + "Km/h";
-            // ImgWeatherIcon.Source = result.list[0].weather[0].customIcon;
 
-       
             for (int i = 1; i <= 5; i++)
             {
                 var forecast = result.list[i];
-
-                
                 DateTime date = DateTimeOffset.FromUnixTimeSeconds(forecast.dt).DateTime;
-                string dayOfWeek = date.ToString("dddd"); // Lấy thứ trong tuần
+                string dayOfWeek = date.ToString("dddd");
 
-                
                 switch (i)
                 {
                     case 1:
@@ -140,19 +127,40 @@ namespace WeatherApp
                         break;
                 }
             }
-
-        }  
-
+        }
 
         private void ShowForecastDetails(int dayIndex)
         {
             var forecast = Weatherlist[dayIndex];
-            // Cập nhật các Label và các thành phần UI khác với dữ liệu của ngày được chọn
-            // LblCity.Text = forecast.city.name;
             LblTemperature.Text = forecast.main.temperature + "℃";
             LblHumidity.Text = forecast.main.humidity + "%";
             LblWind.Text = forecast.wind.speed + "Km/h";
-            // Cập nhật hình ảnh và mô tả thời tiết
+        }
+
+        private void OnHorizontalStackLayoutTapped(object sender, EventArgs e)
+        {
+            var currentLayout = sender as HorizontalStackLayout;
+
+            if (currentLayout != null)
+            {
+                // If a layout was previously tapped, reset its background color
+                if (_previousTappedLayout != null && _previousTappedLayout != currentLayout)
+                {
+                    _previousTappedLayout.BackgroundColor = _initialBackgroundColor; // Reset to initial background color
+                }
+
+                // Save the initial background color of the current layout if _previousTappedLayout is null
+                if (_previousTappedLayout == null)
+                {
+                    _initialBackgroundColor = currentLayout.BackgroundColor;
+                }
+
+                // Change the background color of the current layout
+                currentLayout.BackgroundColor = Color.FromHex("#80FFFFFF");
+
+                // Update the reference to the current layout
+                _previousTappedLayout = currentLayout;
+            }
         }
     }
 }

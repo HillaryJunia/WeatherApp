@@ -66,6 +66,11 @@
                     <VerticalStackLayout HorizontalOptions="Center">
                         <StackLayout x:Name="ForecastDay1">
                             <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
+
+                                <HorizontalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnHorizontalStackLayoutTapped" />
+                                </HorizontalStackLayout.GestureRecognizers>   
+                                
                                 <Image x:Name="ImgIcon1" HeightRequest="60"/>
                                 <VerticalStackLayout VerticalOptions="Center">
                                     <Label x:Name="LblDate1"/>
@@ -76,6 +81,10 @@
 
                         <StackLayout x:Name="ForecastDay2">
                             <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
+                                <HorizontalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnHorizontalStackLayoutTapped" />
+                                </HorizontalStackLayout.GestureRecognizers>
+
                                 <Image x:Name="ImgIcon2" HeightRequest="60"/>
                                 <VerticalStackLayout VerticalOptions="Center">
                                     <Label x:Name="LblDate2"/>
@@ -87,6 +96,10 @@
 
                         <StackLayout x:Name="ForecastDay3">
                             <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
+                                <HorizontalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnHorizontalStackLayoutTapped" />
+                                </HorizontalStackLayout.GestureRecognizers>
+
                                 <Image x:Name="ImgIcon3" HeightRequest="60"/>
                                 <VerticalStackLayout VerticalOptions="Center">
                                     <Label x:Name="LblDate3"/>
@@ -98,6 +111,10 @@
 
                         <StackLayout x:Name="ForecastDay4">
                             <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
+                                <HorizontalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnHorizontalStackLayoutTapped" />
+                                </HorizontalStackLayout.GestureRecognizers>
+
                                 <Image x:Name="ImgIcon4" HeightRequest="60"/>
                                 <VerticalStackLayout VerticalOptions="Center">
                                     <Label x:Name="LblDate4"/>
@@ -109,6 +126,12 @@
 
                         <StackLayout x:Name="ForecastDay5">
                             <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
+                                
+                                
+                                <HorizontalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnHorizontalStackLayoutTapped" />
+                                </HorizontalStackLayout.GestureRecognizers>
+
                                 <Image x:Name="ImgIcon5" HeightRequest="60"/>
                                 <VerticalStackLayout VerticalOptions="Center">
                                     <Label x:Name="LblDate5"/>

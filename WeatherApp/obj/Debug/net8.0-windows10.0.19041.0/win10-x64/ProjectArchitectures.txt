@@ -1,1 +1,1 @@
-E:\HocTap\LapTrinhMang\BaiTap\BaiGiuaKi\WeatherApp\WeatherApp\WeatherApp.csproj;x64
+D:\Bài giữa kì\WeatherApp\WeatherApp\WeatherApp.csproj;x64
