@@ -89,8 +89,9 @@ namespace WeatherApp.Models
         public string description { get; set; }
         public string icon { get; set; }
         public string fullIconUrl => string.Format("https://openweathermap.org/img/wn/{0}@2x.png", icon);
-        public string customIcon => string.Format("clouds_sun.png", icon);
+        public string customIcon => string.Format("icon{0}.png", icon);
     }
+
 
     public class Wind
     {

@@ -34681,24 +34681,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tinon\\.nuget\\packages\\": {},
+    "C:\\Users\\nguye\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\HocTap\\LapTrinhMang\\BaiTap\\BaiGiuaKi\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+      "projectUniqueName": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
       "projectName": "WeatherApp",
-      "projectPath": "E:\\HocTap\\LapTrinhMang\\BaiTap\\BaiGiuaKi\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
-      "packagesPath": "C:\\Users\\tinon\\.nuget\\packages\\",
-      "outputPath": "E:\\HocTap\\LapTrinhMang\\BaiTap\\BaiGiuaKi\\WeatherApp\\WeatherApp\\obj\\",
+      "projectPath": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tinon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

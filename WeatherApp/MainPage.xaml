@@ -12,10 +12,16 @@
             Spacing="25">
             <HorizontalStackLayout VerticalOptions="CenterAndExpand" Spacing="30">
                 <VerticalStackLayout VerticalOptions="Center">
-                    <Label FontAttributes="Bold" Text="24/7/2024" HorizontalTextAlignment="Center"/>
-                    <Label FontAttributes="Bold" Text="2:00 PM" HorizontalTextAlignment="Center"/>
+                    <Label x:Name="nowDay" FontAttributes="Bold"  HorizontalTextAlignment="Center"/>
+                    <Label x:Name="nowTime" FontAttributes="Bold"  HorizontalTextAlignment="Center"/>
                 </VerticalStackLayout>
-                <SearchBar WidthRequest="360" HeightRequest="10" Placeholder="Search items..." />
+
+                <SearchBar WidthRequest="360"
+               HeightRequest="40"
+               Placeholder="Search items..."
+                HorizontalOptions="FillAndExpand"
+                SearchButtonPressed="OnSearchButtonPressed"/>
+
                 <Border Stroke="Transparent"  Padding="10" BackgroundColor="#80FFFFFF" VerticalOptions="Center">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="20,20,20,20" />
@@ -30,12 +36,12 @@
             </HorizontalStackLayout>
             
             <HorizontalStackLayout Spacing="40" Margin="0,40,0,0">
-                <VerticalStackLayout VerticalOptions="Center" WidthRequest="350">
+                <VerticalStackLayout VerticalOptions="Center" WidthRequest="420">
 
                     <Label x:Name="LblCity" FontAttributes="Bold" FontSize="24" HorizontalTextAlignment="Center"/>
                     <Label x:Name="LblWeatherDescription" HorizontalTextAlignment="Center"/>
-                    <Image
-                        Source="https://cdn-icons-png.flaticon.com/512/6142/6142570.png"
+                    <Label x:Name="LbltimeDate" HorizontalTextAlignment="Center"/>
+                    <Image x:Name="ImgWeatherIcon"
                         HeightRequest="120"
                         />
                     <Border Stroke="Transparent"  Padding="30,20" BackgroundColor="#80FFFFFF" VerticalOptions="Center">
@@ -45,79 +51,104 @@
                         <HorizontalStackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Spacing="40">
                             <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
                                 <Image HeightRequest="24" Source="https://cdn-icons-png.freepik.com/512/71/71296.png"/>
-                                <Label x:Name="LblHumidity"
-                                       Text="28%"/>
+                                <Label x:Name="LblHumidity"/>
                             </VerticalStackLayout>
                             <Label x:Name="LblTemperature"
                                    FontSize="40" FontAttributes="Bold" Text="28°C"/>
                             <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
                                 <Image HeightRequest="24" Source="https://cdn-icons-png.flaticon.com/512/2011/2011448.png"/>
-                                <Label x:Name="LblWind"
-                                       Text="10km/h"/>
+                                <Label x:Name="LblWind"/>
                             </VerticalStackLayout>
                         </HorizontalStackLayout>
                     </Border>
                 </VerticalStackLayout>
                 
-                <Border Stroke="Transparent"  Padding="30,10" BackgroundColor="#80FFFFFF" VerticalOptions="Center">
+                <Border Stroke="Transparent"   BackgroundColor="#80FFFFFF" VerticalOptions="Center" >
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="20,20,20,20" />
                     </Border.StrokeShape>
-                    <VerticalStackLayout HorizontalOptions="Center">
-                        <StackLayout x:Name="ForecastDay1">
+
+                    <VerticalStackLayout HorizontalOptions="Center" WidthRequest="160">
+
+                        <StackLayout x:Name="ForecastDay1" >
                             <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
-                                <Image x:Name="ImgIcon1" HeightRequest="60"/>
-                                <VerticalStackLayout VerticalOptions="Center">
-                                    <Label x:Name="LblDate1"/>
-                                    <Label x:Name="LblDescription1"/>
+                                <HorizontalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnHorizontalStackLayoutTapped1" />
+                                </HorizontalStackLayout.GestureRecognizers>
+                                <VerticalStackLayout VerticalOptions="Center" Padding="0,0,0,18">
+                                    <Label x:Name="LblDate1" HorizontalTextAlignment="Center" WidthRequest="160"/>
+                                    <Label x:Name="LblDescription1" HorizontalTextAlignment="Center" WidthRequest="160"/>
                                 </VerticalStackLayout>
                             </HorizontalStackLayout>
                         </StackLayout>
 
-                        <StackLayout x:Name="ForecastDay2">
+                        <BoxView HeightRequest="2" Color="#80634f"/>
+                        <StackLayout x:Name="ForecastDay2" >
                             <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
-                                <Image x:Name="ImgIcon2" HeightRequest="60"/>
-                                <VerticalStackLayout VerticalOptions="Center">
-                                    <Label x:Name="LblDate2"/>
-                                    <Label x:Name="LblDescription2"/>
+                                <HorizontalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnHorizontalStackLayoutTapped2" />
+                                </HorizontalStackLayout.GestureRecognizers>
+                                <VerticalStackLayout VerticalOptions="Center" Padding="0,0,0,18">
+                                    <Label x:Name="LblDate2" HorizontalTextAlignment="Center" WidthRequest="160"/>
+                                    <Label x:Name="LblDescription2" HorizontalTextAlignment="Center" WidthRequest="160"/>
                                 </VerticalStackLayout>
                             </HorizontalStackLayout>
                         </StackLayout>
 
-
-                        <StackLayout x:Name="ForecastDay3">
+                        <BoxView HeightRequest="2" Color="#80634f"/>
+                        <StackLayout x:Name="ForecastDay3" >
                             <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
-                                <Image x:Name="ImgIcon3" HeightRequest="60"/>
-                                <VerticalStackLayout VerticalOptions="Center">
-                                    <Label x:Name="LblDate3"/>
-                                    <Label x:Name="LblDescription3"/>
+                                <HorizontalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnHorizontalStackLayoutTapped3" />
+                                </HorizontalStackLayout.GestureRecognizers>
+                                <VerticalStackLayout VerticalOptions="Center" Padding="0,0,0,18">
+                                    <Label x:Name="LblDate3" HorizontalTextAlignment="Center" WidthRequest="160"/>
+                                    <Label x:Name="LblDescription3" HorizontalTextAlignment="Center" WidthRequest="160"/>
                                 </VerticalStackLayout>
                             </HorizontalStackLayout>
                         </StackLayout>
 
-
-                        <StackLayout x:Name="ForecastDay4">
+                        <BoxView HeightRequest="2" Color="#80634f"/>
+                        <StackLayout x:Name="ForecastDay4" >
                             <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
-                                <Image x:Name="ImgIcon4" HeightRequest="60"/>
-                                <VerticalStackLayout VerticalOptions="Center">
-                                    <Label x:Name="LblDate4"/>
-                                    <Label x:Name="LblDescription4"/>
+                                <HorizontalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnHorizontalStackLayoutTapped4" />
+                                </HorizontalStackLayout.GestureRecognizers>
+                                <VerticalStackLayout VerticalOptions="Center" Padding="0,0,0,18">
+                                    <Label x:Name="LblDate4" HorizontalTextAlignment="Center" WidthRequest="160"/>
+                                    <Label x:Name="LblDescription4" HorizontalTextAlignment="Center" WidthRequest="160"/>
                                 </VerticalStackLayout>
                             </HorizontalStackLayout>
                         </StackLayout>
 
+                        <BoxView HeightRequest="2" Color="#80634f"/>
+                        <StackLayout x:Name="ForecastDay5" >
 
-                        <StackLayout x:Name="ForecastDay5">
                             <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
-                                <Image x:Name="ImgIcon5" HeightRequest="60"/>
-                                <VerticalStackLayout VerticalOptions="Center">
-                                    <Label x:Name="LblDate5"/>
-                                    <Label x:Name="LblDescription5"/>
+                                <HorizontalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnHorizontalStackLayoutTapped5" />
+                                </HorizontalStackLayout.GestureRecognizers>
+                                <VerticalStackLayout VerticalOptions="Center" Padding="0,0,0,18">
+                                    <Label x:Name="LblDate5" HorizontalTextAlignment="Center" WidthRequest="160" />
+                                    <Label x:Name="LblDescription5" HorizontalTextAlignment="Center" WidthRequest="160"/>
                                 </VerticalStackLayout>
                             </HorizontalStackLayout>
                         </StackLayout>
-                        
-                        
+
+                        <BoxView HeightRequest="2" Color="#80634f"/>
+                        <StackLayout x:Name="ForecastDay6" >
+
+                            <HorizontalStackLayout VerticalOptions="Center" Spacing="20">
+                                <HorizontalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnHorizontalStackLayoutTapped6" />
+                                </HorizontalStackLayout.GestureRecognizers>
+                                <VerticalStackLayout VerticalOptions="Center" Padding="0,0,0,18">
+                                    <Label x:Name="LblDate6" HorizontalTextAlignment="Center" WidthRequest="160" />
+                                    <Label x:Name="LblDescription6" HorizontalTextAlignment="Center" WidthRequest="160"/>
+                                </VerticalStackLayout>
+                            </HorizontalStackLayout>
+                        </StackLayout>
+
                     </VerticalStackLayout>
                 </Border>
             </HorizontalStackLayout>
