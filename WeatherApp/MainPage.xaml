@@ -37,7 +37,6 @@
             
             <HorizontalStackLayout Spacing="40" Margin="0,40,0,0">
                 <VerticalStackLayout VerticalOptions="Center" WidthRequest="420">
-
                     <Label x:Name="LblCity" FontAttributes="Bold" FontSize="24" HorizontalTextAlignment="Center"/>
                     <Label x:Name="LblWeatherDescription" HorizontalTextAlignment="Center"/>
                     <Label x:Name="LbltimeDate" HorizontalTextAlignment="Center"/>
@@ -152,69 +151,78 @@
                     </VerticalStackLayout>
                 </Border>
             </HorizontalStackLayout>
-            
-            <Border Stroke="Transparent"  Padding="30,10" BackgroundColor="#80FFFFFF" VerticalOptions="Center">
+
+            <Border Stroke="Transparent"   Padding="30,10" BackgroundColor="#80FFFFFF" VerticalOptions="Center">
                 <Border.StrokeShape>
                     <RoundRectangle CornerRadius="20,20,20,20" />
                 </Border.StrokeShape>
-                <HorizontalStackLayout Spacing="30" HorizontalOptions="Center" VerticalOptions="Center">
-                    <VerticalStackLayout HorizontalOptions="Center">
-                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
-                        <Rectangle Fill="MediumPurple"
-                            WidthRequest="40"
-                            HeightRequest="150" />       
-                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
-                    </VerticalStackLayout>
-                    <VerticalStackLayout HorizontalOptions="Center">
-                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
-                        <Rectangle Fill="MediumPurple"
-        WidthRequest="40"
-        HeightRequest="150" />
-                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
-                    </VerticalStackLayout>
-                    <VerticalStackLayout HorizontalOptions="Center">
-                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
-                        <Rectangle Fill="MediumPurple"
-        WidthRequest="40"
-        HeightRequest="150" />
-                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
-                    </VerticalStackLayout>
-                    <VerticalStackLayout HorizontalOptions="Center">
-                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
-                        <Rectangle Fill="MediumPurple"
-        WidthRequest="40"
-        HeightRequest="150" />
-                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
-                    </VerticalStackLayout>
-                    <VerticalStackLayout HorizontalOptions="Center">
-                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
-                        <Rectangle Fill="MediumPurple"
-        WidthRequest="40"
-        HeightRequest="150" />
-                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
-                    </VerticalStackLayout>
-                    <VerticalStackLayout HorizontalOptions="Center">
-                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
-                        <Rectangle Fill="MediumPurple"
-        WidthRequest="40"
-        HeightRequest="150" />
-                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
-                    </VerticalStackLayout>
-                    <VerticalStackLayout HorizontalOptions="Center">
-                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
-                        <Rectangle Fill="MediumPurple"
-        WidthRequest="40"
-        HeightRequest="150" />
-                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
-                    </VerticalStackLayout>
-                    <VerticalStackLayout HorizontalOptions="Center">
-                        <Label HorizontalTextAlignment="Center" Text="28°C"/>
-                        <Rectangle Fill="MediumPurple"
-        WidthRequest="40"
-        HeightRequest="150" />
-                        <Label HorizontalTextAlignment="Center" Text="00:00"/>
-                    </VerticalStackLayout>
-                </HorizontalStackLayout>
+
+
+
+                <ScrollView Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                    <HorizontalStackLayout Spacing="28" HorizontalOptions="Start" VerticalOptions="Center">
+
+                        <VerticalStackLayout VerticalOptions="End" HorizontalOptions="Center" x:Name="Column1">
+                            <Label x:Name="TempLabel1" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Rectangle x:Name="TempRectangle1" Fill="MediumPurple" WidthRequest="45" HeightRequest="20" VerticalOptions="FillAndExpand"/>
+                            <Label x:Name="TimeLabel1" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Label x:Name="HiddenListColumn1" IsVisible="False"/>
+
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout VerticalOptions="End" HorizontalOptions="Center" x:Name="Column2">
+                            <Label x:Name="TempLabel2" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Rectangle x:Name="TempRectangle2" Fill="MediumPurple" WidthRequest="45" HeightRequest="20" VerticalOptions="FillAndExpand"/>
+                            <Label x:Name="TimeLabel2" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Label x:Name="HiddenListColumn2" IsVisible="False"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout VerticalOptions="End" HorizontalOptions="Center" x:Name="Column3">
+                            <Label x:Name="TempLabel3" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Rectangle x:Name="TempRectangle3" Fill="MediumPurple" WidthRequest="45" HeightRequest="20" VerticalOptions="FillAndExpand"/>
+                            <Label x:Name="TimeLabel3" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Label x:Name="HiddenListColumn3" IsVisible="False"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout VerticalOptions="End" HorizontalOptions="Center" x:Name="Column4">
+                            <Label x:Name="TempLabel4" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Rectangle x:Name="TempRectangle4" Fill="MediumPurple" WidthRequest="45" HeightRequest="20" VerticalOptions="FillAndExpand"/>
+                            <Label x:Name="TimeLabel4" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Label x:Name="HiddenListColumn4" IsVisible="False"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout VerticalOptions="End" HorizontalOptions="Center" x:Name="Column5">
+                            <Label x:Name="TempLabel5" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Rectangle x:Name="TempRectangle5" Fill="MediumPurple" WidthRequest="45" HeightRequest="20" VerticalOptions="FillAndExpand"/>
+                            <Label x:Name="TimeLabel5" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Label x:Name="HiddenListColumn5" IsVisible="False"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout VerticalOptions="End" HorizontalOptions="Center" x:Name="Column6">
+                            <Label x:Name="TempLabel6" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Rectangle x:Name="TempRectangle6" Fill="MediumPurple" WidthRequest="45" HeightRequest="20" VerticalOptions="FillAndExpand"/>
+                            <Label x:Name="TimeLabel6" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Label x:Name="HiddenListColumn6" IsVisible="False"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout VerticalOptions="End" HorizontalOptions="Center" x:Name="Column7">
+                            <Label x:Name="TempLabel7" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Rectangle x:Name="TempRectangle7" Fill="MediumPurple" WidthRequest="45" HeightRequest="20" VerticalOptions="FillAndExpand"/>
+                            <Label x:Name="TimeLabel7" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Label x:Name="HiddenListColumn7" IsVisible="False"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout VerticalOptions="End" HorizontalOptions="Center" x:Name="Column8">
+                            <Label x:Name="TempLabel8" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Rectangle x:Name="TempRectangle8" Fill="MediumPurple" WidthRequest="45" HeightRequest="20" VerticalOptions="FillAndExpand"/>
+                            <Label x:Name="TimeLabel8" HorizontalTextAlignment="Center" Text="Null"/>
+                            <Label x:Name="HiddenListColumn8" IsVisible="False"/>
+                        </VerticalStackLayout>
+                    </HorizontalStackLayout>
+                </ScrollView>
+
+
+
             </Border>
         </VerticalStackLayout>
     </ScrollView>

@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\sevice\\apisevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\sevice\\apisevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\platforms\\windows\\windowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\platforms\\windows\\windowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\city\\cityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\city\\cityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\platforms\\windows\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
+      "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\platforms\\windows\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WeatherApp\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\resources\\images\\icon10n.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
@@ -17,22 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\resources\\images\\icon10d.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\resources\\images\\icon10d.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\sevice\\apisevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\sevice\\apisevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE737699-0253-4D93-AAB9-28A1D11B6C75}|WeatherApp\\WeatherApp.csproj|c:\\users\\nguye\\documents\\zalo received files\\codengaycodedem\\codengaycodedem\\weatherapp\\weatherapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -46,24 +66,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Root.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\Models\\Root.cs",
               "RelativeDocumentMoniker": "WeatherApp\\Models\\Root.cs",
               "ToolTip": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\Models\\Root.cs",
               "RelativeToolTip": "WeatherApp\\Models\\Root.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAQwDUAAAAIAAAA",
+              "ViewState": "AQIAAF8AAAAAAAAAAAA3wDkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T06:22:02.508Z",
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "WeatherApp\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "WeatherApp\\Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-08-18T17:31:45.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CityService.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\City\\CityService.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\City\\CityService.cs",
+              "ToolTip": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\City\\CityService.cs",
+              "RelativeToolTip": "WeatherApp\\City\\CityService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T18:24:53.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\Platforms\\Windows\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "WeatherApp\\Platforms\\Windows\\Package.appxmanifest",
+              "ToolTip": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\Platforms\\Windows\\Package.appxmanifest",
+              "RelativeToolTip": "WeatherApp\\Platforms\\Windows\\Package.appxmanifest",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2024-08-15T12:20:05.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WindowService.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\Platforms\\Windows\\WindowService.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Platforms\\Windows\\WindowService.cs",
+              "ToolTip": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\Platforms\\Windows\\WindowService.cs",
+              "RelativeToolTip": "WeatherApp\\Platforms\\Windows\\WindowService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:16:28.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "WeatherApp\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwEoAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T08:10:34.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "icon10n.png",
               "DocumentMoniker": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\Resources\\Images\\icon10n.png",
               "RelativeDocumentMoniker": "WeatherApp\\Resources\\Images\\icon10n.png",
@@ -74,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "icon10d.png",
               "DocumentMoniker": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\Resources\\Images\\icon10d.png",
               "RelativeDocumentMoniker": "WeatherApp\\Resources\\Images\\icon10d.png",
@@ -85,68 +167,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\MauiProgram.cs",
               "RelativeDocumentMoniker": "WeatherApp\\MauiProgram.cs",
               "ToolTip": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\MauiProgram.cs",
               "RelativeToolTip": "WeatherApp\\MauiProgram.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwDYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T18:29:56.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\MainPage.xaml",
               "RelativeDocumentMoniker": "WeatherApp\\MainPage.xaml",
               "ToolTip": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\MainPage.xaml",
               "RelativeToolTip": "WeatherApp\\MainPage.xaml",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIQAAAB5AAAA",
+              "ViewState": "AQIAANIAAAAAAAAAAAAAANkAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-31T05:20:39.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "WeatherApp\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\MainPage.xaml.cs",
               "RelativeToolTip": "WeatherApp\\MainPage.xaml.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAwwI4AAAAJAAAA",
+              "ViewState": "AQIAAGEBAAAAAAAAAAAIwG4BAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T05:20:33.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T05:20:33.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "WeatherApp\\App.xaml.cs",
               "ToolTip": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\App.xaml.cs",
               "RelativeToolTip": "WeatherApp\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T20:02:48.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "ApiSevice.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\Sevice\\ApiSevice.cs",
               "RelativeDocumentMoniker": "WeatherApp\\Sevice\\ApiSevice.cs",
               "ToolTip": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\Sevice\\ApiSevice.cs",
               "RelativeToolTip": "WeatherApp\\Sevice\\ApiSevice.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAawBoAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T06:36:50.212Z"
+              "WhenOpened": "2024-08-05T06:36:50.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\App.xaml",
               "RelativeDocumentMoniker": "WeatherApp\\App.xaml",
