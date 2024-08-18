@@ -38,7 +38,7 @@ namespace WeatherApp.City
             // Tìm các thành phố có tên chứa đoạn văn bản nhập vào
             return cities
                 .Where(city => city.name.ToLower().Contains(searchText.ToLower()))
-                .Take(10)
+                .Take(100)
                 .ToList();
         }
     }

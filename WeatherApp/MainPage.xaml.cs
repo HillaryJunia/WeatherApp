@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualBasic;
 using System;
 using WeatherApp.Sevices;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using WeatherApp.City;
 
 
 
@@ -100,15 +100,6 @@ namespace WeatherApp
             var result = await ApiSevice.GetWeather(latitude, longitude);
             UpdateUI(result);
         }
-
-        //private async void ImageButton_Clicked(object sender, EventArgs e)
-        //{
-        //    var response = await DisplayPromptAsync(title: "", message: "", placeholder: "Tìm kiếm thời tiết theo thành phố", accept: "Tìm kiếm", cancel: "Hủy");
-        //    if (response != null)
-        //    {
-        //        await GetWeatherDataByCity(response);
-        //    }
-        //}
         private async void OnSearchButtonPressed(object sender, EventArgs e)
         {
             var searchBar = (SearchBar)sender;
@@ -116,11 +107,34 @@ namespace WeatherApp
 
             if (!string.IsNullOrEmpty(searchText))
             {
-                ResetBackgroundColorForAllLayouts(); // Hủy tô màu trước khi tìm kiếm
-                await GetWeatherDataByCity(searchText);
-                searchBar.Text = "";
+                var cityService = new CityService();
+                var matchingCities = cityService.GetCities(searchText);
+
+                if (matchingCities != null && matchingCities.Count > 0)
+                {
+                    // Hiển thị các thành phố trong một ListView hoặc CollectionView
+                    CitiesListView.ItemsSource = matchingCities;
+                    CitiesListView.IsVisible = true; // Hiển thị danh sách thành phố
+                }
+                else
+                {
+                    await DisplayAlert("Notification", "No cities found.", "OK");
+                }
+
+                searchBar.Text = ""; // Xóa nội dung trong SearchBar sau khi tìm kiếm
             }
         }
+        private async void CitiesListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var selectedCity = (WeatherApp.City.City)e.Item;
+            if (selectedCity != null)
+            {
+                ResetBackgroundColorForAllLayouts(); // Hủy tô màu trước khi tìm kiếm
+                await GetWeatherDataByCity(selectedCity.name);
+                CitiesListView.IsVisible = false; // Ẩn danh sách sau khi chọn
+            }
+        }
+
 
 
         public async Task GetWeatherDataByCity(string city)
