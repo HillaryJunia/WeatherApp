@@ -455,7 +455,7 @@ namespace WeatherApp
                 }
 
                 // Thay đổi màu nền của layout hiện tại
-                currentLayout.BackgroundColor = Color.FromHex("#80634f");
+                currentLayout.BackgroundColor = Color.FromHex("#97BEE1");
 
                 // Cập nhật tham chiếu tới layout hiện tại
                 _previousTappedLayout = currentLayout;

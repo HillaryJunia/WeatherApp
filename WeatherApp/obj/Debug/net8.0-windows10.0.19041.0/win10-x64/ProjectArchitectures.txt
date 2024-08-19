@@ -1,1 +1,1 @@
-C:\Users\nguye\Documents\Zalo Received Files\codengaycodedem\codengaycodedem\WeatherApp\WeatherApp\WeatherApp.csproj;x64
+D:\Users\app thời tiết\WeatherApp\WeatherApp\WeatherApp.csproj;x64

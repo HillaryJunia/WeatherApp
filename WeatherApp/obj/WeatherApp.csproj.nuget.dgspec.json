@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {}
+    "D:\\Users\\app thời tiết\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
+    "D:\\Users\\app thời tiết\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+        "projectUniqueName": "D:\\Users\\app thời tiết\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
         "projectName": "WeatherApp",
-        "projectPath": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguye\\Documents\\Zalo Received Files\\codengaycodedem\\codengaycodedem\\WeatherApp\\WeatherApp\\obj\\",
+        "projectPath": "D:\\Users\\app thời tiết\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\app thời tiết\\WeatherApp\\WeatherApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

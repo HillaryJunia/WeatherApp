@@ -12,41 +12,41 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WeatherApp
-build_property.ProjectDir = C:\Users\nguye\Documents\Zalo Received Files\codengaycodedem\codengaycodedem\WeatherApp\WeatherApp\
+build_property.ProjectDir = D:\Users\app thời tiết\WeatherApp\WeatherApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/nguye/Documents/Zalo Received Files/codengaycodedem/codengaycodedem/WeatherApp/WeatherApp/App.xaml]
+[D:/Users/app thời tiết/WeatherApp/WeatherApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WeatherApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/nguye/Documents/Zalo Received Files/codengaycodedem/codengaycodedem/WeatherApp/WeatherApp/AppShell.xaml]
+[D:/Users/app thời tiết/WeatherApp/WeatherApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WeatherApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/nguye/Documents/Zalo Received Files/codengaycodedem/codengaycodedem/WeatherApp/WeatherApp/Controls/CardView.xaml]
+[D:/Users/app thời tiết/WeatherApp/WeatherApp/Controls/CardView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WeatherApp.Controls.CardView.xaml
 build_metadata.AdditionalFiles.TargetPath = Controls\CardView.xaml
 build_metadata.AdditionalFiles.RelativePath = Controls\CardView.xaml
 
-[C:/Users/nguye/Documents/Zalo Received Files/codengaycodedem/codengaycodedem/WeatherApp/WeatherApp/MainPage.xaml]
+[D:/Users/app thời tiết/WeatherApp/WeatherApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WeatherApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/nguye/Documents/Zalo Received Files/codengaycodedem/codengaycodedem/WeatherApp/WeatherApp/Resources/Styles/Colors.xaml]
+[D:/Users/app thời tiết/WeatherApp/WeatherApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WeatherApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/nguye/Documents/Zalo Received Files/codengaycodedem/codengaycodedem/WeatherApp/WeatherApp/Resources/Styles/Styles.xaml]
+[D:/Users/app thời tiết/WeatherApp/WeatherApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WeatherApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
